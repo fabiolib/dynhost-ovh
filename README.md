@@ -12,7 +12,7 @@ sudo apt-get install dnsutils
 # How to use
 1. Download the dynhost.sh script and put it in the folder /etc/cron.hourly (to check every hour)
 2. Add execution permissions to file : chmod +x dynhost.sh
-3. Modify the script with variables : HOST, LOGIN, PASSWORD
+3. Modify the script with variables : DOMAIN_NAME (e.g. dyndns.github.com), USER_NAME (e.g. dyndns.github.com-username), PASSWORD (this is different from your OVH control panel password)
 
 # How it works
 1. The command dig is used to retrieve the IP address of your domain name.
